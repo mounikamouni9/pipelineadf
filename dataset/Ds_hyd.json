@@ -1,0 +1,49 @@
+{
+	"name": "Ds_hyd",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "Ls_blob",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "DelimitedText",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobStorageLocation",
+				"fileName": "EMPHYDgen.csv",
+				"container": "empdetail"
+			},
+			"columnDelimiter": ",",
+			"escapeChar": "\\",
+			"firstRowAsHeader": true,
+			"quoteChar": "\""
+		},
+		"schema": [
+			{
+				"name": "EID",
+				"type": "String"
+			},
+			{
+				"name": "FNAME",
+				"type": "String"
+			},
+			{
+				"name": "AGE",
+				"type": "String"
+			},
+			{
+				"name": "SALARY",
+				"type": "String"
+			},
+			{
+				"name": "GENDER",
+				"type": "String"
+			},
+			{
+				"name": "LNAME",
+				"type": "String"
+			}
+		]
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}

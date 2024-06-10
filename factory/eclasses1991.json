@@ -1,0 +1,9 @@
+{
+	"name": "eclasses1991",
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "ffc5b02c-79ae-4d70-9ec3-c5fc3631466e",
+		"tenantId": "f0fe83e3-aa1b-49a1-b15e-3f66a4812214"
+	}
+}
